@@ -1,0 +1,138 @@
+.main-index {
+    min-height: 100vh;
+    background-color: #c1e3ed;
+    text-align: center;
+    padding-top: 25px;
+  }
+  
+  .main-index h1 {
+    padding-bottom: 25px;
+  }
+  
+  .main-index p {
+    padding-bottom: 25px;
+  }
+  
+  .main-coches {
+    min-height: 100vh;
+    background-color: #c1e3ed;
+    text-align: center;
+  }
+  
+  .grid-container img {
+    width: 200px;
+    padding: 15px;
+  }
+  
+  .main-contacto {
+    min-height: 100vh;
+    background-color: #c1e3ed;
+    text-align: center;
+  }
+  
+  .main-sucursales {
+    background-color: #c1e3ed;
+    min-height: 100vh;
+    text-align: center;
+    padding-top: 25px;
+  }
+  
+  
+  
+  .main-sucursales h2 {
+    padding-top: 25px;
+    padding-bottom: 10px;
+  }
+  
+  
+  
+  .main-tarifas {
+    min-height: 100vh;
+    background-color: #c1e3ed;
+    text-align: center;
+    padding-top: 25px;
+  }
+  
+  .titulo {
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+  }
+  
+  .grid-container {
+    max-width: 850px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  
+  /* cards coches*/
+  .row {
+    justify-content: space-around;
+  }
+  
+  .color-boton {
+    background-color: rgb(140, 96, 180);
+    color: white;
+  }
+  
+  .btn {
+    background-color: #c99bd4;
+    color: black;
+  }
+  
+  .btn:hover {
+    background-color: rgb(164, 100, 157);
+  }
+  
+  /* carousel */
+  .carousel-inner {
+    width: 50vw;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding-bottom: 20px;
+  }
+  
+  .carousel {
+    width: 50vw;
+    margin: 0 auto;
+  }
+  
+  .carousel-caption{
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  .carousel-caption h5{
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .carousel-caption p{
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 0px;
+  }
+  
+  .carousel-caption:hover{
+    background-color: hsla(308, 15%, 59%, 0.596);
+  }
+  
+  
+  .btn-carousel:hover {
+    background-color: rgb(164, 100, 157);
+    color: white;
+  }
+  
+  
+  
+  .table {
+    width: 80vw;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
+  
+  .form-contact{
+    border: 5px;
+  }

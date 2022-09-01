@@ -1,0 +1,52 @@
+.footer {
+    background-color: hsl(334, 41%, 69%);
+  }
+  
+  .footer ul {
+    display: flex;
+    width: 450px;
+    margin: 0 auto;
+    padding: 30px;
+    justify-content: center;
+  }
+  
+  .footer li {
+    padding: 5px;
+    list-style: none;
+  }
+  
+  .footer a {
+    color: white;
+  
+  }
+  
+  .footer ul a:hover{
+    color: black;
+  }
+  
+  
+  
+  .footer p {
+    color: white;
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+  
+  .fa-whatsapp{
+    font-size: 35px;
+  }
+  
+  .fa-twitter{
+    font-size: 35px;
+  }
+  
+  .fa-instagram{
+    font-size: 35px;
+  }
+  
+  .fa-square-facebook{
+    font-size: 35px;
+  }

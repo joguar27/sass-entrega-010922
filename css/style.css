@@ -1,0 +1,196 @@
+/* Mobile Last */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.header {
+  background-color: #d090ac;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.header img {
+  width: 150px;
+  padding: 15px; }
+
+.header ul {
+  list-style: none;
+  display: flex; }
+
+.header li {
+  padding: 10px; }
+
+.header a {
+  color: white;
+  text-decoration: none; }
+
+.header a:hover {
+  color: #4B2840;
+  font-weight: bold; }
+
+.main-index {
+  min-height: 100vh;
+  background-color: #c1e3ed;
+  text-align: center;
+  padding-top: 25px; }
+
+.main-index h1 {
+  padding-bottom: 25px; }
+
+.main-index p {
+  padding-bottom: 25px; }
+
+.main-coches {
+  min-height: 100vh;
+  background-color: #c1e3ed;
+  text-align: center; }
+
+.grid-container img {
+  width: 200px;
+  padding: 15px; }
+
+.main-contacto {
+  min-height: 100vh;
+  background-color: #c1e3ed;
+  text-align: center; }
+
+.main-sucursales {
+  background-color: #c1e3ed;
+  min-height: 100vh;
+  text-align: center;
+  padding-top: 25px; }
+
+.main-sucursales h2 {
+  padding-top: 25px;
+  padding-bottom: 10px; }
+
+.main-tarifas {
+  min-height: 100vh;
+  background-color: #c1e3ed;
+  text-align: center;
+  padding-top: 25px; }
+
+.titulo {
+  font-size: 3rem;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold; }
+
+.grid-container {
+  max-width: 850px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr; }
+
+/* cards coches*/
+.row {
+  justify-content: space-around; }
+
+.color-boton {
+  background-color: #8c60b4;
+  color: white; }
+
+.btn {
+  background-color: #c99bd4;
+  color: black; }
+
+.btn:hover {
+  background-color: #a4649d; }
+
+/* carousel */
+.carousel-inner {
+  width: 50vw;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding-bottom: 20px; }
+
+.carousel {
+  width: 50vw;
+  margin: 0 auto; }
+
+.carousel-caption {
+  padding-top: 5px;
+  padding-bottom: 5px; }
+
+.carousel-caption h5 {
+  font-size: 25px;
+  font-weight: bold; }
+
+.carousel-caption p {
+  font-size: 15px;
+  font-weight: bold;
+  padding-bottom: 0px; }
+
+.carousel-caption:hover {
+  background-color: rgba(166, 135, 162, 0.596); }
+
+.btn-carousel:hover {
+  background-color: #a4649d;
+  color: white; }
+
+.table {
+  width: 80vw;
+  margin: 0 auto;
+  margin-bottom: 2rem; }
+
+.form-contact {
+  border: 5px; }
+
+.footer {
+  background-color: #d090ac; }
+
+.footer ul {
+  display: flex;
+  width: 450px;
+  margin: 0 auto;
+  padding: 30px;
+  justify-content: center; }
+
+.footer li {
+  padding: 5px;
+  list-style: none; }
+
+.footer a {
+  color: white; }
+
+.footer ul a:hover {
+  color: black; }
+
+.footer p {
+  color: white;
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+  justify-content: center;
+  padding-bottom: 20px; }
+
+.fa-whatsapp {
+  font-size: 35px; }
+
+.fa-twitter {
+  font-size: 35px; }
+
+.fa-instagram {
+  font-size: 35px; }
+
+.fa-square-facebook {
+  font-size: 35px; }
+
+@media (max-width: 850px) {
+  .header {
+    flex-direction: column; }
+  .footer ul {
+    width: 266px; }
+  .grid-container {
+    flex-direction: column;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: repeat(3, 2fr);
+    justify-items: center;
+    align-items: center; } }
+
+@media (max-width: 460px) {
+  .grid-container {
+    /* flex-direction: row; */
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: repeat(3, 2fr); } }
